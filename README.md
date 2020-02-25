@@ -1,4 +1,4 @@
-# editor_encrypt
+# body_encrypt
 A combination of the text editor and the encryption repo
 
 # messenger.py
