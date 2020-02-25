@@ -1,3 +1,6 @@
+* Day 8
+* Merged previous repos into this one
+
 # body_encrypt
 A combination of the text editor and the encryption repo
 
