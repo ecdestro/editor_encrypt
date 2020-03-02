@@ -1,13 +1,14 @@
 from cryptography.fernet import Fernet
 
 key = Fernet.generate_key()
-file = Fernet(key)
+cipher = Fernet(key)
+
+print(key)
 
 user = input()
 
-bite = bytes(user, 'utf-8')
-token = file.encrypt(bite)
-print(token)
+preText = bytes(user, 'utf-8')
+cipherText = cipher.encrypt(preText)
+print(cipherText)
 
-print(file.decrypt(token))
-print(key)
+print(cipher.decrypt(cipherText))
