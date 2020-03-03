@@ -1,5 +1,5 @@
 * Day 14
-* Uploaded crypto.py - a first draft of the text editor that encrypts and decrypts text
+* Uploaded messenger2.py - a first draft of the text editor that encrypts and decrypts text with a password
 
 * Day 8
 * Merged previous repos into this one
