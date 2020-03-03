@@ -1,5 +1,5 @@
 * Day 14
-* Uploaded cryptor.py - a first draft of the text editor that encrypts and decrypts text
+* Uploaded crypto.py - a first draft of the text editor that encrypts and decrypts text
 
 * Day 8
 * Merged previous repos into this one
