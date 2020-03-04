@@ -1,24 +1,6 @@
-* Day 14
-* Uploaded messenger2.py - a first draft of the text editor that encrypts and decrypts text with a password
+# Messenger - A learner's attempt at string encryption with passwords
 
-* Day 8
-* Merged previous repos into this one
+This project is my 100 Days Of Code challenge for myself to develop an app that works much the same way that a simple text editor does, only that it encrypts the data it saves with a password that the author chooses, and decrypts it with that same password.
 
-# body_encrypt
-A combination of the text editor and the encryption repo
-
-# messenger.py
-A basic text editor made with tkinter in python 3.8.1
-
-The eventual goal of this project is to turn the editor into a file encrypter/decrypter, a way to make a secure one-time scratchpad. There are other programs that can do this well, I just wanted to learn how.
-Right now it's nothing fancy, but this was uploaded on my Day 3 of 100 Days of Code as I learn what I need to do to make this happen.
-
-# encrypt.py
-Key generation and string encryption
-* Generates a key
-* Takes a string from input
-* Converts the string into bytes
-* Encrypts the bytes
-* Prints the ciphertext
-* Prints the decrypted string
-* Prints the key that was generated
+* messenger2.py is the first version of this project's goal. This was completed on day 14 and serves as a skeleton to base further versions on.
+* The next feature to implement is to delete the message file open successfully opening. I'm unsure yet how to accomplish this as giving the wrong password does not throw an error. That will be this week's project.
